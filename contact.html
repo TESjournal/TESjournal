@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>تماس | تجهیزات سبز</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="lang-fa">
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="wordmark">
+      <img src="assets/logo.jpg" alt="نشان انجمن علمی دانشجویی مهندسی ماشین‌های کشاورزی و مکانیزاسیون" class="site-logo">
+      <span class="text-block">
+        <span class="fa">تجهیزات سبز</span>
+        <span class="en">Tajhizat-e Sabz — Agricultural Mechanization</span>
+      </span>
+    </a>
+    <nav class="main-nav" aria-label="ناوبری اصلی">
+      <a href="index.html"><span data-fa>خانه</span><span data-en>Home</span></a>
+      <a href="about.html"><span data-fa>درباره</span><span data-en>About</span></a>
+      <a href="archive.html"><span data-fa>آرشیو شماره‌ها</span><span data-en>Archive</span></a>
+      <a href="contact.html" aria-current="page"><span data-fa>تماس</span><span data-en>Contact</span></a>
+      <button class="lang-toggle" type="button">English</button>
+    </nav>
+  </div>
+</header>
+
+<main style="padding-top:44px;">
+  <section style="border-bottom:none;">
+    <div class="section-head">
+      <span class="tag num">01</span>
+      <h2><span data-fa>تماس با ما</span><span data-en>Contact us</span></h2>
+    </div>
+
+    <div class="contact-grid">
+      <form id="contact-form" novalidate>
+        <div class="field-row">
+          <label for="name"><span data-fa>نام</span><span data-en>Name</span></label>
+          <input type="text" id="name" name="name">
+          <span class="error-msg"><span data-fa>نام را وارد کنید</span><span data-en>Enter your name</span></span>
+        </div>
+        <div class="field-row">
+          <label for="email"><span data-fa>ایمیل</span><span data-en>Email</span></label>
+          <input type="email" id="email" name="email" data-invalid="ایمیل معتبر وارد کنید">
+          <span class="error-msg" data-invalid="ایمیل معتبر وارد کنید"><span data-fa>ایمیل را وارد کنید</span><span data-en>Enter your email</span></span>
+        </div>
+        <div class="field-row">
+          <label for="message"><span data-fa>پیام</span><span data-en>Message</span></label>
+          <textarea id="message" name="message"></textarea>
+          <span class="error-msg"><span data-fa>پیام را بنویسید</span><span data-en>Write a message</span></span>
+        </div>
+        <button type="submit" class="btn btn-primary"><span data-fa>ارسال پیام</span><span data-en>Send message</span></button>
+        <p class="success-msg"><span data-fa>برنامهٔ ایمیل شما باز می‌شود تا پیام را ارسال کنید.</span><span data-en>Your email app will open to send the message.</span></p>
+      </form>
+
+      <dl class="contact-info">
+        <dt><span data-fa>ایمیل</span><span data-en>Email</span></dt>
+        <dd>TESjournaler@gmail.com</dd>
+        <dt><span data-fa>اینستاگرام</span><span data-en>Instagram</span></dt>
+        <dd><a href="https://instagram.com/TESjournal" target="_blank" rel="noopener">@TESjournal</a></dd>
+        <dt><span data-fa>انجمن علمی</span><span data-en>Scientific association</span></dt>
+        <dd><span data-fa>انجمن علمی دانشجویی مهندسی ماشین‌های کشاورزی و مکانیزاسیون</span><span data-en>Student scientific association for agricultural machinery and mechanization engineering</span></dd>
+        <dt><span data-fa>سردبیر</span><span data-en>Editor-in-chief</span></dt>
+        <dd>میلاد زرگانی / Milad Zargani</dd>
+      </dl>
+
+      <div class="qr-block">
+        <img src="assets/instagram-qr.png" alt="کد QR صفحهٔ اینستاگرام تجهیزات سبز" width="120" height="120">
+        <p><span data-fa>اسکن برای دنبال‌کردن در اینستاگرام</span><span data-en>Scan to follow on Instagram</span></p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <span><img src="assets/logo.jpg" alt="" class="site-logo"><span data-fa>© ۱۴۰۵ تجهیزات سبز</span><span data-en>© 2026 Tajhizat-e Sabz</span></span>
+    <span><span data-fa>انجمن علمی دانشجویی مهندسی ماشین‌های کشاورزی و مکانیزاسیون</span><span data-en>Student scientific association for agricultural machinery and mechanization engineering</span></span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
